@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsche 911 Carrera | The Legend Reborn</title>
+    <meta name="description" content="Porsche 911 Carrera 991 - Agate Grey Metallic. 3.0L Twin-Turbo Boxer-6, 385 HP. Experience the legend.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+    <div class="logo">POR<span>S</span>CHE</div>
+    <ul class="nav-links">
+        <li><a href="#hero">Overview</a></li>
+        <li><a href="#rotate">360°</a></li>
+        <li><a href="#specs">Specs</a></li>
+        <li><a href="#features">Technology</a></li>
+        <li><a href="#performance">Performance</a></li>
+    </ul>
+    <button class="nav-cta" id="nav-cta-btn">Configure</button>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+        <div class="hero-badge">⬡ PORSCHE 911 · 991 GENERATION ⬡</div>
+        <h1 class="hero-title">
+            <span class="model-text">911</span>
+            <span class="carrera-text">CARRERA</span>
+            <span class="year-text">— AGATE GREY METALLIC —</span>
+        </h1>
+        <p class="hero-subtitle">3.0L Twin-Turbo Boxer-6 · 385 HP · 0–100 in 4.2s</p>
+    </div>
+    <div class="hero-car">
+        <img src="images/angle-1.png" alt="Porsche 911 Carrera" id="hero-car-img">
+    </div>
+    <div class="scroll-indicator">
+        <span>SCROLL</span>
+        <div class="scroll-line"></div>
+    </div>
+</section>
+
+<!-- STATS BAR -->
+<div class="stats-bar" id="stats-bar">
+    <div class="stat-item"><div class="stat-value">385<span>HP</span></div><div class="stat-label">Maximum Power</div></div>
+    <div class="stat-item"><div class="stat-value">4.2<span>s</span></div><div class="stat-label">0 to 100 km/h</div></div>
+    <div class="stat-item"><div class="stat-value">293<span>km/h</span></div><div class="stat-label">Top Speed</div></div>
+    <div class="stat-item"><div class="stat-value">450<span>Nm</span></div><div class="stat-label">Peak Torque</div></div>
+</div>
+
+<!-- 360 ROTATION SECTION -->
+<section class="rotate-section" id="rotate">
+    <div class="section-header">
+        <div class="section-tag">Interactive</div>
+        <h2 class="section-title">360° View</h2>
+        <p class="section-desc">Scroll untuk memutar mobil dan lihat dari berbagai sudut pandang</p>
+    </div>
+    <div class="rotate-container">
+        <div class="rotate-stage" id="rotate-stage">
+            <img src="images/angle-1.png" class="rotate-img active" data-index="0" alt="Front Quarter">
+            <img src="images/angle-2.png" class="rotate-img" data-index="1" alt="Side">
+            <img src="images/angle-3.png" class="rotate-img" data-index="2" alt="Rear Quarter">
+            <img src="images/angle-4.png" class="rotate-img" data-index="3" alt="Rear">
+            <img src="images/angle-5.png" class="rotate-img" data-index="4" alt="Front">
+            <img src="images/angle-6.png" class="rotate-img" data-index="5" alt="Front Left">
+        </div>
+        <div class="rotate-floor"></div>
+        <div class="rotate-indicator">
+            <div class="rotate-dots" id="rotate-dots"></div>
+            <div class="rotate-angle" id="rotate-angle">0°</div>
+        </div>
+    </div>
+    <div class="rotate-progress-track">
+        <div class="rotate-progress-bar" id="rotate-progress"></div>
+    </div>
+</section>
+
+<!-- ENGINE / SPECS SECTION -->
+<section class="specs-section" id="specs">
+    <div class="section-header">
+        <div class="section-tag">Powertrain</div>
+        <h2 class="section-title">The Heart of the Beast</h2>
+    </div>
+    <div class="specs-grid">
+        <div class="specs-visual">
+            <img src="images/angle-3.png" alt="Porsche 911 Rear" class="specs-car-img">
+            <div class="specs-glow"></div>
+        </div>
+        <div class="specs-info">
+            <div class="specs-title-group">
+                <div class="specs-title-big">3.0<span>L</span></div>
+                <div class="specs-title-big">TWIN<span>-</span>TURBO</div>
+                <div class="specs-title-big">BOXER <span>6</span></div>
+            </div>
+            <p class="specs-desc">Mesin legendaris Porsche 3.0-liter twin-turbocharged flat-6 (boxer) dengan 6 silinder berlawanan menghasilkan performa luar biasa. Posisi mesin di belakang memberikan distribusi bobot ideal dan karakter berkendara yang tak tertandingi.</p>
+            <div class="spec-rows">
+                <div class="spec-row"><div class="spec-icon">⚙️</div><div class="spec-info-col"><div class="spec-name">Displacement</div><div class="spec-val">2,981 cc</div></div><div class="spec-bar"><div class="spec-bar-fill" style="--fill:80%"></div></div></div>
+                <div class="spec-row"><div class="spec-icon">⚡</div><div class="spec-info-col"><div class="spec-name">Max Power</div><div class="spec-val">385 HP @ 6,500 RPM</div></div><div class="spec-bar"><div class="spec-bar-fill" style="--fill:85%"></div></div></div>
+                <div class="spec-row"><div class="spec-icon">🔩</div><div class="spec-info-col"><div class="spec-name">Max Torque</div><div class="spec-val">450 Nm @ 1,950 RPM</div></div><div class="spec-bar"><div class="spec-bar-fill" style="--fill:90%"></div></div></div>
+                <div class="spec-row"><div class="spec-icon">🏎️</div><div class="spec-info-col"><div class="spec-name">Configuration</div><div class="spec-val">Boxer 6 · Twin-Turbo · RR</div></div><div class="spec-bar"><div class="spec-bar-fill" style="--fill:100%"></div></div></div>
+                <div class="spec-row"><div class="spec-icon">🔄</div><div class="spec-info-col"><div class="spec-name">Transmission</div><div class="spec-val">7-Speed PDK</div></div><div class="spec-bar"><div class="spec-bar-fill" style="--fill:75%"></div></div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features-section" id="features">
+    <div class="section-header">
+        <div class="section-tag">Technology</div>
+        <h2 class="section-title">Engineered to Perfection</h2>
+    </div>
+    <div class="features-grid">
+        <div class="feature-card"><div class="feature-num">01</div><div class="feature-icon">🎯</div><h3 class="feature-title">PDK Gearbox</h3><p class="feature-desc">Transmisi dual-clutch 7-percepatan dengan perpindahan gigi dalam milidetik untuk akselerasi maksimum dan efisiensi optimal.</p></div>
+        <div class="feature-card"><div class="feature-num">02</div><div class="feature-icon">🔧</div><h3 class="feature-title">PASM Active</h3><p class="feature-desc">Porsche Active Suspension Management menyesuaikan damping secara real-time untuk handling dan kenyamanan sempurna.</p></div>
+        <div class="feature-card"><div class="feature-num">03</div><div class="feature-icon">💨</div><h3 class="feature-title">Aerodinamika</h3><p class="feature-desc">Rear spoiler adaptif bergerak otomatis sesuai kecepatan. Downforce meningkat 3x pada 120 km/h untuk stabilitas sempurna.</p></div>
+        <div class="feature-card"><div class="feature-num">04</div><div class="feature-icon">🖥️</div><h3 class="feature-title">PCM System</h3><p class="feature-desc">Porsche Communication Management dengan navigasi terkini, konektivitas lengkap dan antarmuka pengemudi yang intuitif.</p></div>
+        <div class="feature-card"><div class="feature-num">05</div><div class="feature-icon">⚡</div><h3 class="feature-title">Sport Chrono</h3><p class="feature-desc">Mode Normal, Sport, Sport Plus, dan Individual. Launch Control terintegrasi untuk akselerasi 0-100 km/h dalam 4.2 detik.</p></div>
+        <div class="feature-card"><div class="feature-num">06</div><div class="feature-icon">🛡️</div><h3 class="feature-title">Brembo Brakes</h3><p class="feature-desc">Rem Brembo berventilasi kaliper 6-piston depan dan 4-piston belakang. Opsi Porsche Ceramic Composite Brake tersedia.</p></div>
+    </div>
+</section>
+
+<!-- PERFORMANCE -->
+<section class="perf-section" id="performance">
+    <div class="section-header">
+        <div class="section-tag">Performance Data</div>
+        <h2 class="section-title">Numbers Tell the Story</h2>
+    </div>
+    <div class="perf-grid">
+        <div class="perf-left">
+            <div class="speed-showcase">
+                <div class="speed-label">TOP SPEED</div>
+                <div class="speed-display"><span class="speed-num">293</span><span class="speed-unit">KM/H</span></div>
+            </div>
+            <div class="perf-car-wrap">
+                <img src="images/angle-2.png" alt="Porsche Side" class="perf-car-img">
+                <div class="speed-lines">
+                    <div class="speed-line"></div><div class="speed-line"></div><div class="speed-line"></div>
+                    <div class="speed-line"></div><div class="speed-line"></div>
+                </div>
+            </div>
+        </div>
+        <div class="perf-right">
+            <div class="perf-stats-grid">
+                <div class="perf-stat"><div class="perf-stat-num">4.2<span>s</span></div><div class="perf-stat-label">0 – 100 km/h</div></div>
+                <div class="perf-stat"><div class="perf-stat-num">8.0<span>s</span></div><div class="perf-stat-label">0 – 200 km/h</div></div>
+                <div class="perf-stat"><div class="perf-stat-num">293<span>km/h</span></div><div class="perf-stat-label">V-max</div></div>
+                <div class="perf-stat"><div class="perf-stat-num">1,420<span>kg</span></div><div class="perf-stat-label">Curb Weight</div></div>
+            </div>
+            <div class="perf-mini-stats">
+                <div class="mini-stat"><div class="mini-val">6</div><div class="mini-label">CYLINDERS</div></div>
+                <div class="mini-stat"><div class="mini-val">2</div><div class="mini-label">TURBOS</div></div>
+                <div class="mini-stat"><div class="mini-val">7</div><div class="mini-label">PDK GEARS</div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section" id="cta">
+    <div class="cta-glow"></div>
+    <div class="cta-content">
+        <div class="hero-badge">⬡ READY TO ORDER ⬡</div>
+        <h2 class="cta-title">Own the<br><span>Legend</span></h2>
+        <p class="cta-subtitle">Porsche 911 Carrera 991 · Agate Grey Metallic</p>
+        <div class="cta-buttons">
+            <button class="btn-primary" id="btn-configure">Configure Your 911</button>
+            <button class="btn-secondary" id="btn-testdrive">Request Test Drive</button>
+        </div>
+        <div class="cta-price">Starting from <strong>Rp 2.8 Miliar</strong> · OTR Jakarta</div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="footer">
+    <div class="footer-logo">POR<span>S</span>CHE</div>
+    <div class="footer-copy">© 2024 Porsche AG. All rights reserved.</div>
+    <div class="footer-links">
+        <a href="#">Privacy</a><a href="#">Terms</a><a href="#">Contact</a><a href="#">Dealers</a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
